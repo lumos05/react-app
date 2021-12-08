@@ -58,11 +58,20 @@ function App() {
    return (
     <div className="App">
      <header>
-     <h1>Nitu's TO-DO List</h1>
+     <h1>TO-DO List</h1>
      </header>
+     <center>
+        <div id="footer">
+          Built by Srinitya.S
+        </div>
+        <div id="socials">
+                                    
+        </div>  
+      </center>  
      <Form inputText = {inputText} todos = {todos} setTodos = {setTodos} setInputText={setInputText} setStatus={setStatus} />    
      <TodoList setTodos = {setTodos} filteredTodos={filteredTodos} todos={todos} />
     </div>
+   
   );
 }
 
